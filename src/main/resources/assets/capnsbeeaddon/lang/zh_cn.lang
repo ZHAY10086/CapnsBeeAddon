@@ -19,10 +19,8 @@ gui.capnsbeeaddon.temporal.status.active=状态：来源可运行时间扫描
 gui.capnsbeeaddon.temporal.legend.territory=时间扫描范围
 gui.capnsbeeaddon.temporal.legend.qualified=符合选定来源下一次未抑制扫描的条件
 gui.capnsbeeaddon.temporal.legend.excluded=被当前目标规则排除
-gui.capnsbeeaddon.temporal.tiles.qualified=符合条件的方块实体：%s；显示 %s；省略 %s
-gui.capnsbeeaddon.temporal.tiles.excluded=被排除的方块实体：%s；显示 %s；省略 %s
-gui.capnsbeeaddon.temporal.random.qualified=符合条件的随机刻方块：%s；显示 %s；省略 %s
-gui.capnsbeeaddon.temporal.random.excluded=被排除的随机刻方块：%s；显示 %s；省略 %s
+gui.capnsbeeaddon.temporal.tiles=方块实体：符合条件 %s（显示 %s），排除 %s（显示 %s）
+gui.capnsbeeaddon.temporal.random=随机刻方块：符合条件 %s（显示 %s），排除 %s（显示 %s）
 gui.capnsbeeaddon.temporal.chunks=已加载的范围区块：%s / %s；未加载未检查：%s
 gui.capnsbeeaddon.temporal.inspected=快照已检查的方块实体条目：%s；方块位置：%s
 gui.capnsbeeaddon.temporal.global=当前全局注册的符合条件的方块实体：%s / %s（来源所有权未知）
@@ -45,7 +43,3 @@ item.capnsbeeaddon.temporal_focus_tileentity.detail.2=* 忽略响应随机刻的
 item.capnsbeeaddon.product_nullifier.name=产物无效化升级
 item.capnsbeeaddon.product_nullifier.detail.1=* 不生成蜜蜂产物
 item.capnsbeeaddon.product_nullifier.detail.2=* 蜜蜂效果与生命周期正常执行
-
-#maybe?
-#item.capnsbeeaddon.temporal_focus_apiary.detail.1=* 时间加速：仅工业蜂箱
-#item.capnsbeeaddon.temporal_focus_apiary.detail.2=* 其他机器和方块不受影响
